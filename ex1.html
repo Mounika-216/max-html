@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> hover</title>
+	<style type="text/css">
+		.nav{
+			
+			height:42px;
+			background: black;
+		}
+		.box-content{
+			align-items: center;
+            height: 100%;
+            justify-content: center;
+            display: flex;
+    
+        }
+       .box-content a{
+        	color: white;
+            text-decoration: none;
+            position: relative;
+		}
+      .nav.box-seque{
+        	width: 200px;
+        	height: 46px;
+        	background: yellow;
+        	position: absolute;
+        	display: none ;
+        }
+        .box-content a:hover .nav.box-seque {
+           display: block;
+        }
+
+	</style>
+</head>
+<body>
+     <div class="nav">
+     	<div class="box-content">
+     	<a href="#">Download Our Apps</a>
+        </div> 
+        <div class="box-seque">
+        	
+        </div>
+     </div>
+</body>
+</html>
